@@ -65,6 +65,8 @@
 .navigation{
 	width:960px;
 	background: #ddd;
+	position: relative;
+	margin-bottom: 50px;
 }
 .nav_list{
 	height: 40px;
@@ -81,4 +83,21 @@
 	display: inline-block;
 	position: relative;
 	padding: 0 10px;
+}
+.dropdown{
+	position: absolute;
+	top: 35;
+	left: 75px;
+	border: 1px solid #aaa;
+	display: none;
+}
+
+.new-list{
+	width: 400px;
+	margin: 50px 0;
+}
+.acc_second{
+	border: 1px dashed #888;
+	list-style: disc outside none;
+	opacity: 0;
 }
